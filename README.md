@@ -5,45 +5,44 @@ Quick Reference sheet for notes and discussion for class.
         static void Main(string[] args)
         {
             
-            int n = 100;// <-- Ignore passed by solution
-            for (int i = 1; i <= n; i++)
+            int N = 100;
+
+            for (int i = 1; i <= N; i++)
             {
-                if (n % 2 == 0 && n % 3 == 0)
+                if ((i % 2 == 0) && (i % 3 == 0) && (i % 5 == 0))
                 {
-                    Console.WriteLine(" Codility Test ");
+                    Console.WriteLine("CodilityTestCoders");
                 }
-                else if (n % 3 == 0 && n % 5 == 0)
+                else if ((i % 2 == 0) && (i % 3 == 0))
                 {
-                    Console.WriteLine("Test Coders");
+                    Console.WriteLine("CodilityTest");
                 }
-                else if (n % 2 == 0 && n % 5 == 0)
+                else if ((i % 2 == 0) && (i % 5 == 0))
                 {
-                    Console.WriteLine("Codility Coders");
+                    Console.WriteLine("CodilityCoders");
                 }
-                else if (n % 2 == 0 && n % 3 == 0 && n % 5 == 0)
+                else if ((i % 3 == 0) && (i % 5 == 0))
                 {
-                    Console.WriteLine("Codility Test Coders");
+                    Console.WriteLine("TestCoders");
                 }
-                else if (n % 2 == 0)
+                else if (i % 2 == 0)
                 {
                     Console.WriteLine("Codility");
                 }
-                else if (n % 3 == 0)
+                else if (i % 3 == 0)
                 {
                     Console.WriteLine("Test");
                 }
-                else if (n % 5 == 0)
+                else if (i % 5 == 0)
                 {
                     Console.WriteLine("Coders");
                 }
                 else
                 {
-                    Console.WriteLine(n);
+                    Console.WriteLine(i);
                 }
-
             }
-
-            Console.ReadLine();
+            Console.Read();
         }
     }
 
