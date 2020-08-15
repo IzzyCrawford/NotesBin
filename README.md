@@ -11,31 +11,31 @@ Quick Reference sheet for notes and discussion for class.
             {
                 if ((i % 2 == 0) && (i % 3 == 0) && (i % 5 == 0))
                 {
-                    Console.WriteLine("CodilityTestCoders");
+                    Console.WriteLine("FizzBuzzWoof");
                 }
                 else if ((i % 2 == 0) && (i % 3 == 0))
                 {
-                    Console.WriteLine("CodilityTest");
+                    Console.WriteLine("FizzWoof");
                 }
                 else if ((i % 2 == 0) && (i % 5 == 0))
                 {
-                    Console.WriteLine("CodilityCoders");
+                    Console.WriteLine("FizzBuzz");
                 }
                 else if ((i % 3 == 0) && (i % 5 == 0))
                 {
-                    Console.WriteLine("TestCoders");
+                    Console.WriteLine("BuzzWoof");
                 }
                 else if (i % 2 == 0)
                 {
-                    Console.WriteLine("Codility");
+                    Console.WriteLine("Fizz");
                 }
                 else if (i % 3 == 0)
                 {
-                    Console.WriteLine("Test");
+                    Console.WriteLine("Buzz");
                 }
                 else if (i % 5 == 0)
                 {
-                    Console.WriteLine("Coders");
+                    Console.WriteLine("Woof");
                 }
                 else
                 {
